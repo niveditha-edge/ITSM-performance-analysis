@@ -2,9 +2,9 @@
 
 The IT Service Management (ITSM) dataset represents operational IT support ticket data across multiple priority levels, agent groups, ticket sources, and resolution timelines.
 
-This project transforms raw IT support ticket data into a structured business intelligence solution using **SQL and Power BI**, focusing on data cleaning, Service Level Agreement(SLA) validation, exploratory analysis, performance measurement, and executive-level reporting.
+This project transforms raw IT support ticket data into a structured business intelligence solution using **SQL and Power BI**, focusing on data cleaning, Service Level Agreement(SLA) validation, exploratory analysis, and performance measurement.
 
-The primary objective is to analyze **SLA performance, resolution efficiency (MTTR), workload distribution, ticket complexity, and operational bottlenecks** to support data-driven IT service improvement decisions.
+The primary objective is to analyze **SLA performance, resolution efficiency, workload distribution, ticket complexity, and operational bottlenecks** to support data-driven IT service improvement decisions.
 
 
 
@@ -20,7 +20,7 @@ The primary objective is to analyze **SLA performance, resolution efficiency (MT
 ### Key Columns
 
 **Dimensions:**  
-Ticket_ID, Created_Date, Priority, Status, Source, Agent_Name, Agent_Group, Complexity_Level  
+Ticket_ID, Created_Date, Priority, Status, Source, Agent_Name, Agent_Group, Support_Level  
 
 **Measures:**  
 Resolution_Time_Hours, SLA_Status  
