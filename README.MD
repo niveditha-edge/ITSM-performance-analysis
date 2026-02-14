@@ -53,18 +53,18 @@ The dashboard provides operational insights through:
 - Complexity vs Resolution Time Analysis  
 
 
-An interactive Power BI dashboard (Overview & Breakdown pages) can be downloaded [here](PowerBI/ITSM_dashboard.pbix)
+An interactive Power BI dashboard can be downloaded [here](https://github.com/niveditha-edge/ITSM-performance-analysis/raw/main/PowerBI/ITSM_dashboard.pbix)
 
 
 
 
 ### The SQL queries used for preprocessing and analysis can be found in:
 
-Initial Data Checks: [here](SQL%20queries/1.%20Data_cleaning.sql)
+Initial Data Checks: [here](https://github.com/niveditha-edge/ITSM-performance-analysis/blob/main/SQL_queries/1.%20Data_cleaning.sql)
 
-Exploratory Data Analysis: [here](SQL%20queries/2.%20Exploratory_Data_Analysis.sql)
+Exploratory Data Analysis: [here](https://github.com/niveditha-edge/ITSM-performance-analysis/blob/main/SQL_queries/2.%20Exploratory_Data_Analysis.sql)
 
-Business Questions: [here](SQL%20queries/3.%20Business_questions.sql)
+Business Questions: [here](https://github.com/niveditha-edge/ITSM-performance-analysis/blob/main/SQL_queries/3.%20Business_questions.sql)
 
 
 
@@ -93,7 +93,7 @@ Business Questions: [here](SQL%20queries/3.%20Business_questions.sql)
 -  Ticket inflow is evenly distributed across Phone, Chat, Email, and Portal channels (~25% each).
 
  
- - Significant volume of tickets remains in Open and In Progress states, indicating active workload and backlog levels.
+ - A significant volume of tickets remains in Open and In Progress states, indicating active workload and backlog levels.
 
 
 
@@ -111,7 +111,7 @@ Business Questions: [here](SQL%20queries/3.%20Business_questions.sql)
 
 - Implement proactive SLA tracking dashboards to identify and address potential breaches before escalation.
 
-- Introduce performance tracking at agent level to improve accountability and optimize ticket resolution efficiency.
+- Introduce performance tracking at the agent level to improve accountability and optimize ticket resolution efficiency.
 
 ## 🛠️ Tools & Technologies
 
@@ -124,10 +124,5 @@ Business Questions: [here](SQL%20queries/3.%20Business_questions.sql)
 - **DAX**  
   Implemented for KPI calculations such as Total Tickets, MTTR, SLA metrics, and trend analysis.
 
-
-
-## ✅ Conclusion
-
-This project delivers an end-to-end ITSM performance analysis using SQL and Power BI, converting raw ticket data into clear operational insights. The analysis enables better SLA monitoring, workload optimization, and data-driven service management decisions.
 
 
